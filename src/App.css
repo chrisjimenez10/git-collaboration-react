@@ -1,1 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&display=swap');
 
+* {
+  font-family: "Caveat Brush", cursive;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color:hsla(118, 80%, 67%, 0.65);
+  height: 100vh;
+  margin-top: 0;
+  display: flex;
+}
+
+#image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+ul {
+  list-style-image: url("./assets/rsz_soccer-ball-clipart-5.png");
+}
+
+button:hover {
+  transform: scale(1.05);
+}
